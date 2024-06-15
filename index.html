@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flower sunday</title>
+    <meta name="discription" content="曙橋駅から徒歩４分。一般生花から季節の生花、ブリザーブドフラワー等のギフトまで取り揃えております。">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!--GoogleFontsのCSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <!--Google Fonts iconのCSS -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- slickのCSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
+    <!-- 自分のCSS -->
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="logo" id="section_1">
+            <a href="index.html"><img class="logo_img" src="assets/img/logo.svg" alt="sunday flower"></a>
+        </h1>
+        <nav class="header_nav">
+            <ul>
+                <li id="scroll_link"><a href="#" onclick="ScrollWindow('section_1');return false">トップ</a></li>
+                <li id="scroll_link"><a href="#" onclick="ScrollWindow('section_2');return false">商品紹介</a></li>
+                <li id="scroll_link" class="list_center_sp" onclick="ScrollWindow('section_3');return false">
+                    <a href="#">オンライン<br>ショップ</a>
+                </li>
+                <li id="scroll_link" class="list_center_pc" onclick="ScrollWindow('section_3');return false"><a
+                        href="#">オンラインショップ</a></li>
+                <li id="scroll_link" onclick="ScrollWindow('section_4');return false;"><a href="#">アクセス</a></li>
+                <li id="scroll_link"><a href="#" onclick="ScrollWindow('section_5');return false">お問合せ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="key">
+            <div class="key_slider">
+                <img class="key_img" src="assets/img/key_sp_750x640_1.jpg" alt="店舗の外観">
+                <img class="key_img" src="assets/img/key_sp_750x640_2.jpg" alt="オレンジ色の花">
+                <img class="key_img" src="assets/img/key_sp_750x640_3.jpg" alt="観葉植物">
+            </div>
+            <p class="key_kw_1 scale-up-hor-left" id="kw_one">楽しいという気持ちをお届けしたい</p>
+            <p class="key_kw_2 scale-up-hor-left" id="kw_two">sunday flower</p>
+        </div>
+
+        <article class="about_shop">
+            <section class="about_shop_content">
+                <h2><span>曙橋駅から徒歩4分</span><br><span>幸せを届けるフラワーショップ</span></h2>
+                <p class="about_shop_text">昭和50年創業以来、お客様に喜んで頂きたく、豊富な品揃えでご提供させていただいております。<br>
+                    チューリップやバラなどの一般生花や観葉植物をはじめ、季節に応じた生花やブリザーブドフラワー、ソープフラワー、エッセンシャルオイル、祭壇やステージ演出用生花なども販売しております。<br>
+                    ご希望のお花がお店にない場合もお取り寄せ可能です。お気軽にお申し付け下さい。
+                </p>
+            </section>
+        </article>
+
+        <section class="shop_item">
+            <div class="shop_item_inner">
+                <div class="shop_item_title">
+                    <h2>商品紹介</h2>
+                    <a href="shop_item.html" class="btn_shop_item">
+                        <p>詳しく見る<span class="btn_space"></span> 〉</p>
+                    </a>
+                </div>
+                <a id="section_2" class="anchor"></a>
+
+                <div class="item_slider">
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_nmf_768x768.jpg" alt="一般生花のサンプル">
+                            <figcaption>一般生花</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_ssf_768x768.jpg" alt="季節の生花の写真">
+                            <figcaption>季節の生花</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_bzf_768x768.jpg" alt="ブリザーブドフラワーの写真">
+                            <figcaption>ブリザーブドフラワー</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_spf_768x768.jpg" alt="ソープフラワーの写真">
+                            <figcaption>ソープフラワー</figcaption>
+                        </a>
+                    </figure>
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_oil_768x768.jpg" alt="エッセンシャルオイルの写真">
+                            <figcaption>エッセンシャルオイル</figcaption>
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="shop_item_pc">
+                    <figure class="item_img">
+                        <a href="shop_item.html">
+                            <img src="assets/img/item_nmf_768x768.jpg" alt="一般生花のサンプル">
+                            <figcaption>一般生花</figcaption>
+                        </a>
+                    </figure>
+                    <div class="item_right">
+                        <div class="item_right_top">
+                            <figure class="item_img">
+                                <a href="shop_item.html">
+                                    <img src="assets/img/item_ssf_768x768.jpg" alt="季節の生花の写真">
+                                    <figcaption>季節の生花</figcaption>
+                                </a>
+                            </figure>
+                            <figure class="item_img">
+                                <a href="shop_item.html">
+                                    <img src="assets/img/item_bzf_768x768.jpg" alt="ブリザーブドフラワーの写真">
+                                    <figcaption>ブリザーブドフラワー</figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                        <div class="item_right_under">
+                            <figure class="item_img">
+                                <a href="shop_item.html">
+                                    <img src="assets/img/item_spf_768x768.jpg" alt="ソープフラワーの写真">
+                                    <figcaption>ソープフラワー</figcaption>
+                                </a>
+                            </figure>
+                            <figure class="item_img">
+                                <a href="shop_item.html">
+                                    <img src="assets/img/item_oil_768x768.jpg" alt="エッセンシャルオイルの写真">
+                                    <figcaption>エッセンシャルオイル</figcaption>
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop_online">
+            <a id="section_3" class="anchor"></a>
+            <div class="shop_online_title">
+                <h2>オンラインショップ</h2>
+            </div>
+            <div class="shop_online_link">
+                <div class="online_link_img_left">
+                    <a href="#"><img src="assets/img/shop_online_savanna.jpg" alt="savannaサイトのロゴ"></a>
+                    <a href="#"><img src="assets/img/shop_online_rakuen.jpg" alt="楽園サイトのロゴ"></a>
+                </div>
+                <div class="online_link_img_right">
+                    <a href="#"><img src="assets/img/shop_online_wahoo.jpg" alt="wahoousaサイトのロゴ"></a>
+                    <a href="#"><img src="assets/img/shop_online_2020city.jpg" alt="2020cityサイトのロゴ"></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="shop_access">
+            <div class="shop_access_title">
+                <h2>アクセス</h2>
+            </div>
+            <a id="section_4" class="anchor"></a>
+            <div class="shop_access_info">
+                <table>
+                    <tr>
+                        <th>店舗名</th>
+                        <td>sunday flower</td>
+                    </tr>
+
+                    <tr>
+                        <th>所在地</th>
+                        <td>東京都新宿区愛住町22御花ビル1F</td>
+                    </tr>
+
+                    <tr>
+                        <th>TEL</th>
+                        <td>087-0871-1087</td>
+                    </tr>
+
+                    <tr>
+                        <th>代表者</th>
+                        <td>御花茂</td>
+                    </tr>
+
+                    <tr>
+                        <th>営業時間</th>
+                        <td>10:00 - 19:00</td>
+                    </tr>
+
+                    <tr>
+                        <th>定休日</th>
+                        <td>火曜日</td>
+                    </tr>
+                </table>
+                <div class="btn_shop_access">
+                    <a class="icon_map"
+                        href="https://www.google.co.jp/maps/place/%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%97%E3%83%A9%E3%83%B3IT%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB/@35.6918247,139.7204376,17z/data=!3m2!4b1!5s0x60188cee4005299b:0xf7096218e16bc28a!4m6!3m5!1s0x60188d5bce063c37:0xb548b9250334152f!8m2!3d35.6918247!4d139.7204376!16s%2Fg%2F11hyv90b18"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="assets/img/icon_map.svg" alt="mapのアイコン">
+                    </a>
+                </div>
+                <img class="shop_map" src="assets/img/map.svg" alt="お店までの地図">
+            </div>
+        </section>
+
+        <section class="shop_contact" id="section_5">
+            <div class="shop_contact_title">
+                <h2>お問合せ</h2>
+            </div>
+            <div class="shop_contact_inner">
+                <div class="shop_contact_text">
+                    <p>何でもお気軽にお問合せください。<br>
+                        ご返信までにお時間がかかる場合がございますので
+                        お急ぎの方はお電話にて直接お問合せ下さいませ。
+                    </p>
+                </div>
+                <div class="shop_contact_btn">
+                    <a href="#">
+                        <span class="material-symbols-outlined">phone_iphone</span>
+                        087-0871-1087
+                    </a>
+                    <a href="contact/contact.html">
+                        <span class="material-symbols-outlined">mail</span>
+                        メールでお問合せ
+                    </a>
+                </div>
+                <p class="shop_time">10:00 - 19:00 定休日 火曜日</p>
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <p>&copy;2023 akebonobashiseika Co.,Ltd.</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
