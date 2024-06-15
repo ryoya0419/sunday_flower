@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 
+ブレイクポイント
+SP ~ 619px
+tab 620px~949px
+PC 950px~
+*/
+
+/* ===========
+変数宣言
+===========*/
+:root {
+    --text_xs: 100;
+    --text_s: 300;
+    --text_m: 400;
+    --text_l: 500;
+    --font_xs: 8px;
+    --font_s: 12px;
+    --font_m: 16px;
+    --font_l: 28px;
+    --main_color: #e9bc00;
+    --base_color: #e8dfba;
+    --accent_color: #ffffff;
+    --gutter_min: 8px;
+    --gutter_main_sp: 32px;
+    --gutter_main_pc: 32px;
+    --gutter_content_sp: 16px;
+    --gutter_content_pc: 32px;
+    --gutter_side_sp: 32px;
+}
+
+/*=====
+ベース
+=====*/
+body {
+    font-family: 'Noto Sans JP', sans-serif, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font: #333;
+    -webkit-text-size-adjust: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+/* ===========
+ フッター
+===========*/
+
+footer {
+    background-color: var(--main_color);
+    padding: 16px;
+    text-align: center;
+    color: var(--accent_color);
+    font-size: var(--font_s);
+    font-weight: var(--text_xs);
+}

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 607 388.78">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-dasharray: 0 0 11.68 19.46;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4, .cls-9, .cls-10, .cls-11, .cls-12 {
+        stroke: #eeeeef;
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        stroke-width: 15px;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        stroke: #9e9e9f;
+      }
+
+      .cls-14 {
+        fill: #009844;
+      }
+
+      .cls-15 {
+        fill: #9e9e9f;
+      }
+
+      .cls-16 {
+        fill: #c0dd9e;
+      }
+
+      .cls-17 {
+        fill: #dfb517;
+      }
+
+      .cls-4 {
+        stroke-dasharray: 0 0 10.87 18.11;
+      }
+
+      .cls-18 {
+        font-size: 12px;
+      }
+
+      .cls-18, .cls-19 {
+        font-family: NotoSansCJKjp-Regular-83pv-RKSJ-H, 'Noto Sans CJK JP';
+      }
+
+      .cls-18, .cls-20, .cls-21 {
+        fill: #231815;
+      }
+
+      .cls-5 {
+        stroke-width: 5px;
+      }
+
+      .cls-19 {
+        font-size: 15.33px;
+      }
+
+      .cls-6 {
+        stroke: #231815;
+        stroke-width: .98px;
+      }
+
+      .cls-7 {
+        stroke-width: 10px;
+      }
+
+      .cls-8 {
+        stroke: #000;
+      }
+
+      .cls-20 {
+        font-size: 14px;
+      }
+
+      .cls-20, .cls-21, .cls-22 {
+        font-weight: 700;
+      }
+
+      .cls-20, .cls-22 {
+        font-family: SourceHanSansJP-Bold-83pv-RKSJ-H, 'Source Han Sans JP';
+      }
+
+      .cls-21 {
+        font-family: NotoSansCJKjp-Bold-83pv-RKSJ-H, 'Noto Sans CJK JP';
+        font-size: 8px;
+      }
+
+      .cls-10 {
+        stroke-dasharray: 0 0 12.54 20.89;
+      }
+
+      .cls-22 {
+        fill: #fff;
+        font-size: 10px;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 0 0 11.98 19.97;
+      }
+
+      .cls-12 {
+        stroke-dasharray: 0 0 12.01 20.02;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="10" y="21" width="592" height="337"/>
+    </clipPath>
+  </defs>
+  <g class="cls-13">
+    <g>
+      <rect class="cls-6" x="443.16" y="102.98" width="82.49" height="25.51"/>
+      <text class="cls-20" transform="translate(470.4 120.25)"><tspan x="0" y="0">曙橋</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-14" x="409.31" y="103.99" width="25.67" height="23.59"/>
+      <text class="cls-22" transform="translate(416 114.21)"><tspan x="0" y="0">A1</tspan><tspan x="-3.85" y="10">出口</tspan></text>
+    </g>
+    <g>
+      <rect class="cls-6" x="289.16" y="272.98" width="82.49" height="25.51"/>
+      <text class="cls-20" transform="translate(295.4 290.25)"><tspan x="0" y="0">四谷三丁目</tspan></text>
+    </g>
+    <line class="cls-7" x1="400.83" y1="89" x2="400.83" y2="256"/>
+    <polyline class="cls-5" points="316.99 89 403.18 141.37 547.11 134.72"/>
+    <polyline class="cls-5" points="301.03 89 262.45 194.39 262.45 314"/>
+    <polyline class="cls-5" points="259.57 89.5 221 194.89 221 314.5"/>
+    <circle class="cls-15" cx="310.92" cy="109.92" r="9.92"/>
+    <circle class="cls-17" cx="265.92" cy="109.92" r="9.92"/>
+    <text class="cls-19" transform="translate(177.97 67.83)"><tspan x="0" y="0">sunday flower</tspan></text>
+    <polygon class="cls-16" points="214.5 224.92 170.35 224.92 159.5 159.08 210.63 159.08 214.5 224.92"/>
+    <text class="cls-21" transform="translate(172.7 182.69)"><tspan x="0" y="0">新宿区立</tspan><tspan x="0" y="14">愛住公園</tspan></text>
+    <text class="cls-21" transform="translate(298.7 129.69)"><tspan x="0" y="0">セブンイレブン</tspan></text>
+    <text class="cls-18" transform="translate(316.76 75.96)"><tspan x="0" y="0">靖国通り</tspan></text>
+    <text class="cls-18" transform="translate(320.76 337.96)"><tspan x="0" y="0">新宿通り</tspan></text>
+    <text class="cls-18" transform="translate(515.76 208.96)"><tspan x="0" y="0">外苑東通り</tspan></text>
+    <text class="cls-18" transform="translate(557.76 76.96)"><tspan x="0" y="0">四谷→</tspan></text>
+    <text class="cls-18" transform="translate(557.76 333.96)"><tspan x="0" y="0">四谷→</tspan></text>
+    <text class="cls-18" transform="translate(20.76 334.96)"><tspan x="0" y="0">←新宿</tspan></text>
+    <text class="cls-18" transform="translate(20.76 77.96)"><tspan x="0" y="0">←新宿</tspan></text>
+    <g>
+      <line class="cls-3" y1="89" x2="607" y2="89"/>
+      <g>
+        <line class="cls-9" y1="89" x2="6" y2="89"/>
+        <line class="cls-11" x1="25.97" y1="89" x2="591.02" y2="89"/>
+        <line class="cls-9" x1="601" y1="89" x2="607" y2="89"/>
+      </g>
+    </g>
+    <g>
+      <line class="cls-3" y1="314" x2="607" y2="314"/>
+      <g>
+        <line class="cls-9" y1="314" x2="6" y2="314"/>
+        <line class="cls-11" x1="25.97" y1="314" x2="591.02" y2="314"/>
+        <line class="cls-9" x1="601" y1="314" x2="607" y2="314"/>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-3" points="547.11 0 547.11 156 383.96 271.72 383.96 388.78"/>
+      <g>
+        <line class="cls-9" x1="547.11" x2="547.11" y2="6"/>
+        <line class="cls-2" x1="547.11" y1="25.46" x2="547.11" y2="140.27"/>
+        <polyline class="cls-9" points="547.11 150 547.11 156 542.21 159.47"/>
+        <line class="cls-10" x1="525.17" y1="171.56" x2="397.37" y2="262.21"/>
+        <polyline class="cls-9" points="388.85 268.25 383.96 271.72 383.96 277.72"/>
+        <line class="cls-4" x1="383.96" y1="295.84" x2="383.96" y2="373.72"/>
+        <line class="cls-9" x1="383.96" y1="382.78" x2="383.96" y2="388.78"/>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-3" points="79 16 79 141.37 113.19 259.75 113.19 363.5"/>
+      <g>
+        <line class="cls-9" x1="79" y1="16" x2="79" y2="22"/>
+        <polyline class="cls-12" points="79 42.02 79 141.37 113.19 259.75 113.19 347.49"/>
+        <line class="cls-9" x1="113.19" y1="357.5" x2="113.19" y2="363.5"/>
+      </g>
+    </g>
+    <g>
+      <polyline class="cls-8" points="220.06 73.93 220.06 110 262.83 110"/>
+      <polygon points="256.2 118.18 254.84 116.71 262.06 110 254.84 103.29 256.2 101.82 265 110 256.2 118.18"/>
+    </g>
+  </g>
+</svg>

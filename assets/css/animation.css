@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.scale-up-hor-left {
+    -webkit-animation: scale-up-hor-left .9s ease-in-out .5s;
+    animation: scale-up-hor-left .9s ease-in-out .5s
+}
+
+@-webkit-keyframes scale-up-hor-left {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0
+    }
+}
+
+@keyframes scale-up-hor-left {
+    0% {
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0
+    }
+}
+
+
+
+
+
+@media screen and (min-width:950px) {
+    .move_box_left {
+        transform:
+            scale(0.9) rotateY(-15deg) rotateX(-25deg) translateZ(-4.5rem);
+        transform-origin: 50% 100%;
+        transform-style: preserve-3d;
+        box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+        transition: 0.6s ease transform;
+    }
+
+    .move_box_right {
+        transform:
+            scale(0.9) rotateY(-15deg) rotateX(25deg) translateZ(4.5rem);
+        transform-origin: 50% 100%;
+        transform-style: preserve-3d;
+        box-shadow: -1rem 1rem 2rem rgba(0, 0, 0, 0.25);
+        transition: 0.6s ease transform;
+    }
+
+    .move_box_left:hover,
+    .move_box_right:hover {
+        transform: scale(1);
+    }
+
+    .move_box_left::before,
+    .move_box_right::before {
+        transform: translateZ(4rem);
+    }
+
+    .move_box_left::before:hover,
+    .move_box_right::before:hover {
+        transform: translateZ(0);
+    }
+
+    .move_box_left::after,
+    .move_box_right::after {
+        transform: translateZ(-4rem);
+    }
+
+    .move_box_left::after:hover,
+    .move_box_right::after:hover {
+        transform: translateZ(-1px);
+    }
+
+    /*=======min-width:950px=======*/
+}

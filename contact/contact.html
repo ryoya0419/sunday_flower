@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問合せ</title>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <!--GoogleFontsのCSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- 自分のCSS -->
+    <link rel="stylesheet" href="../assets/css/common.css">
+    <link rel="stylesheet" href="../assets/css/animation.css">
+    <link rel="stylesheet" href="../assets/css/shop_item.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <script>console.log("")</script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header_inner">
+                <h1 class="logo">
+                    <a href="../index.html"><img class="logo_img" src="../assets/img/logo_noleft.svg"
+                            alt="sunday flower"></a>
+                </h1>
+                <div class="hum_menu">
+                    <span class="hum_menu_line"><span class="line_middle"></span></span>
+                    <span class="hum_menu_text">MENU</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">トップ</a></li>
+                        <li><a href="../shop_item.html">商品紹介</a></li>
+                        <li><a href="#">オンラインショップ</a></li>
+                        <li><a href="#">アクセス</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="contact">
+            <h2>お問合せ</h2>
+            <div class="form_table">
+                <form action="check.php" method="post">
+
+                    <dl>
+                        <dt>
+                            <label for="menu">メニュー</label>
+                        </dt>
+                        <dd>
+                            <select name="menu" class="select" id="menu">
+                                <option value="商品について">商品について</option>
+                                <option value="配送について">配送について</option>
+                                <option value="その他">その他</option>
+                            </select>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <label for="name">氏名</label>
+                        </dt>
+                        <dd>
+                            <input class="input" type="text" name="name" id="name">
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <label for="email">メールアドレス</label>
+                        </dt>
+                        <dd>
+                            <input class="input" type="email" name="email" id="email">
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt>
+                            <label for="detail">お問合せ内容</label>
+                        </dt>
+                        <dd>
+                            <textarea name="detail" class="textarea" id="detail"></textarea>
+                        </dd>
+                    </dl>
+
+                    <button type="submit" class="contact_btn">入力の確認</button>
+
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy;2023 akebonobashiseika Co.,Ltd.</p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="../assets/js/shop_item.js"></script>
+</body>
+
+</html
